@@ -19,7 +19,13 @@ public class Stepdefs {
         driver.get(baseUrl);
         WebElement element = driver.findElement(By.linkText("login"));       
         element.click();          
-    } 
+    }
+    @Given("^login is selected$")
+    public void new_user_is_selected() throws Throwable {
+        driver.get(baseUrl);
+        WebElement element = driver.findElement(By.linkText("register new user"));       
+        element.click();          
+    }     
 
     @When("^username \"([^\"]*)\" and password \"([^\"]*)\" are given$")
     public void username_and_password_are_given(String username, String password) throws Throwable {
@@ -40,6 +46,11 @@ public class Stepdefs {
     public void username_correct_and_password_are_given(String username, String password) throws Throwable {
         logInWith(username, password);
     }
+    @When("^username is \"([^\"]*)\" and password is \"([^\"]*)\" and passwordConfirmation is \"([^\"]*)\" $")
+    public void user_register_username_correct_and_password_are_given(String username, String password) throws Throwable {
+
+//        signUp(username, password);
+    }    
 
     @When("^correct username \"([^\"]*)\" and incorrect password \"([^\"]*)\" are given$")
     public void username_and_incorrect_password_are_given(String username, String password) throws Throwable {
@@ -48,7 +59,21 @@ public class Stepdefs {
     @When("^incorrect username \"([^\"]*)\" and incorrect password \"([^\"]*)\" are given$")
     public void incorrent_username_and_incorrect_password_are_given(String username, String password) throws Throwable {
         logInWith(username, password);
-    }     
+    }
+    @When("^incorrent username \"([^\"]*)\" and incorrent password \"([^\"]*)\" are given$")
+    public void incorrent_username_and_incorrent_password_are_given(String arg1, String arg2) throws Throwable {
+        logInWith(arg1, arg2);
+        
+    }
+
+    @Then("^user is not logged in and error message is given(\\d+)\\.$")
+    public void user_is_not_logged_in_and_error_message_is_given(int arg1) throws Throwable {
+        pageHasContent("invalid username or password");
+        pageHasContent("Give your credentials to login");        
+        // Write code here that turns the phrase above into concrete actions
+        
+    }
+    
     @Then("^user is logged in$")
     public void user_is_logged_in() throws Throwable {
         pageHasContent("Ohtu Application main page");
