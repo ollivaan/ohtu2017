@@ -44,15 +44,23 @@ public class Stepdefs {
     @When("^correct username \"([^\"]*)\" and incorrect password \"([^\"]*)\" are given$")
     public void username_and_incorrect_password_are_given(String username, String password) throws Throwable {
         logInWith(username, password);
-    }
-    
+    } 
+    @When("^incorrect username \"([^\"]*)\" and incorrect password \"([^\"]*)\" are given$")
+    public void incorrent_username_and_incorrect_password_are_given(String username, String password) throws Throwable {
+        logInWith(username, password);
+    }     
     @Then("^user is logged in$")
     public void user_is_logged_in() throws Throwable {
         pageHasContent("Ohtu Application main page");
     }
-    
+
     @Then("^user is not logged in and error message is given$")
     public void user_is_not_logged_in_and_error_message_is_given() throws Throwable {
+        pageHasContent("invalid username or password");
+        pageHasContent("Give your credentials to login");
+    }       
+    @Then("^user is not logged in and error message is given2$")
+    public void user_is_not_logged_in_with_nonexistent_username_and_password() throws Throwable {
         pageHasContent("invalid username or password");
         pageHasContent("Give your credentials to login");
     }     
