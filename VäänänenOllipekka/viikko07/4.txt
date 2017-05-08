@@ -1,0 +1,8 @@
+Johtaminen nykypäivän prosesseissa
+Ollipekka Väänänen
+
+
+Johtaminen perinteisissä ja ketterissä ohjelmistoprojekteissa, Eero-Veikko Laine, kandi. https://www.cs.helsinki.fi/u/mluukkai/ohtu/laine-kandi.pdf
+
+
+Eero käy kandissa läpi ketterän ja tavallisen ohjelmistoprojektin johtamista. Lineaarinen malli eli vesiputousmalli on selkeästi enemmän riippuvaisempi johdosta kuin ketterä niin sanottu agile. Ketterissä ohjelmistoprojekteissa tiimityöskentely nousee enemmän voimaa kuin entisessä lineaarisessa mallissa. Ketteriä niin sanottuja frameworkkeja on useampia, suosituin tällä hetkellä on Scrum. Ketterä on osoittautunut paljon paremmaksi kuin lineaarinen malli sillä ketterässä ohjelmistoprojektissa tiimihenki ja vapaus suurempi. Ketterän hyviä puolia ovat juuri se että tiimi on niin sanotusti samassa veneessä projektin kanssa, eikä niin että projektipäällikkö on ruoskansa kanssa tiimiä ruoskimassa. Roolit ketterässä projektissa jakautuvat siten että yksi on tuotteen omistaja eli asiakas, tiimi muodostuu henkilöistä joista yksi on scrum master jonka tehtävänä on huolehtia siitä että tiimi saa tehdä työnsä ilman johdon häirintää. Vaikkakin tiimissä on yksi niin sanotusti ylempi henkilö hän työskentelee silti tiimin yhteydessä. Ketterissä ohjelmistoprojekteissa pyritään tietoa jakamaan ja pyritään siihen että ohjelman eri voisi kaikki kirjoittaa. 

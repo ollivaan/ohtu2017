@@ -1,0 +1,11 @@
+Ohjelmistotuotantomenetelmien lyhyt historia.
+Ollipekka Väänänen
+
+
+Ohjelmistotuotantomenetelmien kehittyminen 1950- luvulta nykypäivään
+ Lauri Suomalainen
+ Kandidaatintutkielma
+ Helsingin Yliopisto Tietojenkäsittelytieteeen laitos, 2014 
+https://www.cs.helsinki.fi/u/mluukkai/ohtu/suomalainen-kandi.pdf
+
+Lauri Suomalainen käy läpi kandidaattitutkielmassaan ohjemistotuotantomenetelmien historiaa ja kehitystä. Lauri käy läpi ohjelmistotuotannon alkutaipaleen eli siitä kun tietokoneet kehitettiin ja meille syntyi niin sanottu ongelma joka lainaten menee näin “Niin kauan kun ei ollut koneita, ohjelmointi ei ollut mikään ongelma; kun meillä oli muutama heikko tietokone, ohjelmointi oli vähäinen ongelma. Nyt kun meillä on giganttisia tietokoneita, on ohjelmoinnista tullut yhtä giganttinen ongelma!“. Tämän jälkeen alettiin kehitellä erilaisia työkaluja ja malleja kuinka saisimme parhaan tuloksen. Aluksi ajateltiin että ohjelmistoprojekti olisi samanlaista insinöörityötä kuin talon rakentaminen eli suunnittelu olisi tärkein ja itse koodaarit olisivat täten vain työläisiä. Tämä osoittautuikin vääräksi, luultavasti sen takia että vielä ei oikein käsitetty tietokoneen mahdollisuuksia. Vesiputousmalli eli lineaarinen malli oli aikansa tuote ja sitä käytettiin yleisesti. Vesiputousmalli osoittatui huonoksi sillä heti alkuun tehtiin suunnitelmat ja kun työ oli vaiheessa niin asiakkaalta ei hirveämmin mielipiteitä kyselty. Nykyään ketteriss ohjelmistotuotantoprojekteissa asiakas on etusijalla ja myös mukana kehityksessä alusta loppuun asti. Tällä tavalla saamme luotua tuotteen josta asiakas varmasti pitää, sillä alussa asiakas ei vielä välttämättä tiedä mitä haluaa. Ketterissä niin sanotuissa Agilessa on myös hyviä ja huonoja puolia. Hyvät puolet ovat se että tiimi puhaltaa yhteen hiileen ja asiakas on etusijalla. Huonona puolena mainittakoon, se että edelleenkin projekteista maaliin menee vain 43% kandin lähteiden mukaan. Tämä pitäisi saada 99% ja uskon että suunta on nyt oikea.     

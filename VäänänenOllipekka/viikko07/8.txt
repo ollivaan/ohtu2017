@@ -1,0 +1,11 @@
+referaatti
+Ryhmätyö
+Ollipekka Väänänen
+
+Ryhmätyö ohjelmistokehityksessä
+ Kenny Heinonen
+ Kandidaatintutkielma
+ Helsingin Yliopisto Tietojenkäsittelytieteeen laitos, 2013
+
+
+Kenny Heinonen tarkastelee kandissaan ohjelmistoalan ryhmätyöskentelyä. Miten yksilö vaikuttaa ryhmätyöhön ja mitä tapoja on kehittää ryhmätyötä ja miten kehittyä ryhmätyössä ovat vallitsevia kysymyksiä Heinosen artikkelissaan. Heinonen esittelee kaksi ketterää ohjelmistotuotannon prosessimallia, ne ovat scrum ja xp eli extreme programming. Scrumissa ja Xp:ssä on paljon samaa, nimet ovat suurin ero joka näistä tulee heti mieleen. Scrumissa on sprintti joka on ajanjakso jolloin ohjelmaa kehitetään tiettyjen vaatimusten nojalla, Extreme programmissa on taas iteraatiot jolloin ohjelmaa kehitetään tiettyjen vaatimusten nojalla. Heinonen käsittelee artikkelissaan kuinka ryhmäjako jakautuu scrumissa ja xp:ssä ja miten ne ohjeistavat projektin kehitystä. Artikkelissa tulee myös esille erilaisia indikaattoreita joilla voidaan mitata eri ohjelmistokehittäjän piirteitä, jotka vaikuttavat sekä negatiivisesti että positiivisesti ryhmän työskentelyyn. 
